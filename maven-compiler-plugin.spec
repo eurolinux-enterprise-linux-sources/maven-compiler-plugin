@@ -1,6 +1,6 @@
 Name:           maven-compiler-plugin
 Version:        3.1
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        Maven Compiler Plugin
 
 Group:          Development/Libraries
@@ -49,6 +49,9 @@ API documentation for %{name}.
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.1-4
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 3.1-3
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
